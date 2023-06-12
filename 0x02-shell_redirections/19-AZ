@@ -1,2 +1,2 @@
 #!/bin/bash
-echo Aca | perl -pe 's/A/Z/g; s/c/e/g'
+tr 'A' 'z' | tr 'c' 'e'
